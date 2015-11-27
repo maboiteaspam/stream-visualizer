@@ -66,8 +66,8 @@ stream.resume();
 
 streamC
   .pipe(visualizer.jobSent('stream'))
-  .pipe(stream)
   .pipe(visualizer.jobProcessing('stream'))
+  .pipe(stream)
   .pipe(visualizer.jobsPushed('stream')) // this is not a job ender
   .pipe(visualizer.jobRemains('stream', true)) // this one is.
 
