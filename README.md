@@ -47,7 +47,7 @@ IE: you should probably at least have `jobSent('stream')` before,
 var sVisualizer = require('stream-visualizer')
 
 var concurrency=1000;
-var streamSize=5000;
+var streamSize=5000; // This is fake ! but mandatory.
 
 var visualizer = new sVisualizer();
 visualizer.start(streamSize);
