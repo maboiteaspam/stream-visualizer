@@ -1,12 +1,27 @@
 {
   "name": "stream-visualizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A helper to transform stream ticks into `multimeter` bars.",
   "main": "index.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "multimeter": "^0.1.1",
+    "pad": "^1.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maboiteaspam/stream-visualizer.git"
+  },
   "keywords": [],
-  "author": "maboiteaspam",
-  "license": "WTF",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maboiteaspam/stream-visualizer/issues"
+  },
+  "homepage": "https://github.com/maboiteaspam/stream-visualizer#readme"
 }
