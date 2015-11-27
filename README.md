@@ -35,7 +35,7 @@ It displays the `total count of pushed` jobs.
 - `jobRemains` same as before, but it displays in `right to left`.
 It displays the `total count of remainings` jobs.
 
-the visualizer instance then `start` listen the stream activity
+the visualizer instance then `start`s to listen the stream activity
 and determine its status to display `multimeter` bar chart.
 
 This is why visualizer's streams must be setup correctly in the stream.
